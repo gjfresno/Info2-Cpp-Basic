@@ -1,29 +1,47 @@
-# Proyecto de C++
+# **Info2-Cpp-Basic**  
 
-Este repositorio contiene una serie de proyectos en C++ con ejemplos y ejercicios.
+Repositorio con ejemplos básicos de C++ para aprender y practicar conceptos fundamentales de programación.  
 
-## Compilación de los proyectos
+## **Estructura del Proyecto**  
 
-Puedes compilar los proyectos utilizando el compilador de C++ de tu preferencia. A continuación, se muestran los comandos básicos para compilar cada uno de los proyectos:
+El repositorio está organizado en carpetas temáticas con distintos ejemplos de código:  
 
-1. **Coordenadas.c**
+### **0_TemasViejos**  
+Ejercicios y ejemplos de temas previos, incluyendo manejo de procesos con `fork` y comunicación entre procesos con `pipe`.  
+
+### **1_IOStream**  
+Ejemplos de entrada y salida estándar en C++ usando `iostream`.  
+
+### **2_ParametrosReferencia**  
+Ejemplos sobre el uso de parámetros por referencia en funciones C++:
+
+### **3_MemoriaDinamica**  
+Ejemplos sobre asignación dinámica de memoria en C++:  
+
+### **4_AutoVariable**  
+Ejemplo sobre el uso del tipo `auto` en C++ (`auto.cpp`).  
+
+### **5_Plantillas**  
+Ejemplos sobre **Templates** en C++.  
+
+### **6_FuncionesInLine**  
+Ejemplos sobre el uso de **funciones `inline`** en C++.  
+
+### **7_SobrecargaFunciones**  
+Ejemplos de **sobrecarga de funciones** en C++.  
+
+### **8_ArgumentosPredeterminados**  
+Ejemplos de **argumentos por defecto** en funciones C++.  
+
+## **Cómo Usar los Ejemplos**  
+1. Clona el repositorio:  
    ```bash
-   gcc ejemplo.cpp -o ejemplo
+   git clone <URL_DEL_REPOSITORIO>
+   cd Info2-Cpp-Basic
+   ```
+2. Compila un ejemplo con `g++` o `clang++`:  
+   ```bash
+   g++ 2_ParametrosReferencia/Ej01_Referencia.cpp -o referencia
+   ./referencia
    ```
 
-## Lista de proyectos
-
-- Coordenadas.c
-- Ej00_Operador_pregunta.cpp
-- Ej01_STDIN_STDOUT.cpp
-- Ej02_Funciones_INLINE.cpp
-- Ej03_Referencia.cpp
-- Ej04_Referencia.cpp
-- Ej05_ArgPredeterminados.cpp
-- Ej06_Operador_Unario.cpp
-- Ej07_SobrecargaFunciones.cpp
-- Ej08_Plantillas.cpp
-- Ej09_Plantillas++.cpp
-- Ej10_Clases_Comienzo.cpp
-- Ej11_Clases_Accesos.cpp
-- String.cpp
